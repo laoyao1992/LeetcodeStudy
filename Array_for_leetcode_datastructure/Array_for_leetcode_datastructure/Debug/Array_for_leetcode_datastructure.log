@@ -1,0 +1,2 @@
+﻿  CircularQueueApi.c
+I:\Leetcode_study\Array_for_leetcode_datastructure\Array_for_leetcode_datastructure\CircularQueueApi.c(11,9): error C2513: “MyCircularQueue *”: 在“=”前没有声明变量
