@@ -1,15 +1,17 @@
+#include <stdbool.h>
 
-typedef int bool;
+//typedef int bool;
 
 typedef struct {
 	int* pBase;
 	int front;
 	int rear;
+	int size;
 } MyCircularQueue;
 
 /** Initialize your data structure here. Set the size of the queue to be k. */
 
-MyCircularQueue* myCircularQueueCreate(int k);
+bool myCircularQueueCreate(int k, MyCircularQueue* obj);
 
 /** Insert an element into the circular queue. Return true if the operation is successful. */
 bool myCircularQueueEnQueue(MyCircularQueue* obj, int value);
@@ -29,4 +31,6 @@ bool myCircularQueueIsEmpty(MyCircularQueue* obj);
 /** Checks whether the circular queue is full or not. */
 bool myCircularQueueIsFull(MyCircularQueue* obj);
 
-void myCircularQueueFree(MyCircularQueue* obj);
+//void myCircularQueueFree(MyCircularQueue* obj);
+
+void traverse_myCircularQueue(MyCircularQueue* obj);

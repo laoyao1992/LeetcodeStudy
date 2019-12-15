@@ -15,6 +15,26 @@ int main()
 	else
 		printf("数组中不存在中心索引\n");
 #endif
+	int i = 0;
+	MyCircularQueue Queue;
+
+	myCircularQueueCreate(10, &Queue);
+	for (i = 0; i < 10; i++)
+	{
+		if (true == myCircularQueueEnQueue(&Queue, i * 3))
+			printf("入队 %d\n", i * 3);
+		else
+			printf("队列已满\n");
+	}
+	traverse_myCircularQueue(&Queue);
+	
+	for (i = 0; i < 10; i++)
+	{
+		if (true == myCircularQueueDeQueue(&Queue))
+			printf("出队 %d\n", i);
+		else
+			printf("队列已空\n");
+	}
 }
 
 int pivotIndex(int *nums, int numSize)

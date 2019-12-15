@@ -1,4 +1,1 @@
-first create
-second modified
-third
-forth
+1.queue by array
