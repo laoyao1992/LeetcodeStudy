@@ -21,9 +21,15 @@
     <ClCompile Include="main.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="TreeApi.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CircularQueueApi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeApi.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

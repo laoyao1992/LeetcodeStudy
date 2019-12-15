@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "CircularQueueApi.h"
+#include "TreeApi.h"
 int pivotIndex(int *nums, int numSize);
 
 int main()
@@ -14,7 +15,8 @@ int main()
 		printf("中心索引是 %d\n", b);
 	else
 		printf("数组中不存在中心索引\n");
-#endif
+
+	/*for queue*/
 	int i = 0;
 	MyCircularQueue Queue;
 
@@ -35,6 +37,12 @@ int main()
 		else
 			printf("队列已空\n");
 	}
+	free((&Queue)->pBase);
+#endif
+
+	/*for tree*/
+	pTreeNode pT = CreateTree();
+
 }
 
 int pivotIndex(int *nums, int numSize)

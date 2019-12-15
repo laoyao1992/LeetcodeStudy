@@ -1,6 +1,2 @@
-﻿  CircularQueueApi.c
-I:\Leetcode_study\Array_for_leetcode_datastructure\Array_for_leetcode_datastructure\CircularQueueApi.c(9,30): warning C4013: “malloc”未定义；假设外部返回 int
-I:\Leetcode_study\Array_for_leetcode_datastructure\Array_for_leetcode_datastructure\CircularQueueApi.c(13,7): warning C4013: “exit”未定义；假设外部返回 int
-I:\Leetcode_study\Array_for_leetcode_datastructure\Array_for_leetcode_datastructure\CircularQueueApi.c(58): warning C4715: “myCircularQueueFront”: 不是所有的控件路径都返回值
-I:\Leetcode_study\Array_for_leetcode_datastructure\Array_for_leetcode_datastructure\CircularQueueApi.c(68): warning C4715: “myCircularQueueRear”: 不是所有的控件路径都返回值
+﻿  TreeApi.c
   Array_for_leetcode_datastructure.vcxproj -> I:\Leetcode_study\Array_for_leetcode_datastructure\Debug\Array_for_leetcode_datastructure.exe
