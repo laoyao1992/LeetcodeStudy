@@ -19,7 +19,18 @@ public class gu_piao {
                 System.out.print(nums[i]);
         }
 
-        System.out.print("]");
+        System.out.println("]");
+//        System.out.println("Max is:"+Integer.MAX_VALUE);
+//        System.out.println("Min is:"+Integer.MIN_VALUE);
+
+        Reverse_Integer Ri = new Reverse_Integer();
+        int value = Ri.reverse(15456415);
+        System.out.println("reverse value is:"+value);
+
+        three_sum Ts = new three_sum();
+        int nums_2[] = {-4, 5, 0, 2, 1, 2};
+        Ts._threeSum(nums_2);
+
     }
     public static int maxProfit(int prices[]){
         int _maxProfit = 0;
